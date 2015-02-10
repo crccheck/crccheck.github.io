@@ -50,10 +50,17 @@
   description: >
     A quick way to find out what the Django request object looks like
 
+- name: DJs Everywhere
+  homepage: https://chrome.google.com/webstore/detail/djs-everwhere/kohnmfkmnhcganbfphkhmahgheackagg
+  repository: https://github.com/crccheck/dj.js
+  description: DJs are everywhere (Chrome Extension)
+  tags: ["javascript", "browser"]
+
 - name: DJs in the News
   homepage: https://twitter.com/djsinthenews
   repository: https://github.com/crccheck/djsinthenews
   description: Twitter account that gives important DJ updates
+  tags: ["python"]
 
 - name: docker-pod
   repository: https://github.com/crccheck/docker-pod
