@@ -10,7 +10,7 @@
   repository: https://github.com/texastribune/aws-voyeur
   description: >
     An opinionated quick n dirty way to list AWS resources from the command-line.
-  tags: ["python", "aws", "ops"]
+  tags: ["python", "aws", "ops", "cli"]
 
 - name: Calligraphy Guides
   homepage: http://crccheck.github.io/calligraphy-guides/
@@ -25,7 +25,7 @@
   pypi: cloudwatch-to-graphite
   travisci: crccheck/cloudwatch-to-graphite
   description: Easy modular way to move data from AWS CloudWatch to Graphite.
-  tags: ["python", "aws", "ops"]
+  tags: ["python", "aws", "ops", "cli"]
 
 - name: crccheck-django-boilerplate
   homepage: https://github.com/crccheck/crccheck-django-boilerplate
@@ -74,7 +74,7 @@
   homepage: https://github.com/crccheck/dockr
   repository: https://github.com/crccheck/dockr
   description: A wrapper around the `docker` cli so I can be lazier.
-  tags: ["docker"]
+  tags: ["docker", "cli"]
 
 - name: Elevator Explorer
   homepage: http://elevators.texastribune.org/
@@ -140,7 +140,7 @@
   description: >
     Wrapper around database CLIs to automate tedious connection
     arguments in a world where databases are moving off local machines.
-  tags: ["python", "docker"]
+  tags: ["python", "docker", "cli"]
 
 - name: Project Runpy
   homepage: https://github.com/crccheck/project_runpy
@@ -197,7 +197,7 @@
   description: >
     Python and command line utilities for getting
     election results from the Texas Secretary of State's website.
-  tags: ["python", "opendata"]
+  tags: ["python", "opendata", "cli"]
 
 - name: Wjordpress
   homepage: https://github.com/texastribune/wjordpress
