@@ -1,12 +1,3 @@
-- name: Django Object Actions
-  homepage: https://github.com/texastribune/django-object-actions
-  repository: https://github.com/texastribune/django-object-actions
-  travisci: texastribune/django-object-actions
-  pypi: django-object-actions
-  description: >
-    Lets developers create tool buttons in Django admin the way it should have
-    been.
-
 - name: ATX BandC
   homepage: http://atx-bandc-feed.herokuapp.com/
   repository: https://github.com/crccheck/atx-bandc
@@ -16,6 +7,12 @@
     Scrapes the Austin Boards & Commissions sites, parses pdfs,
     and presents them as a RSS feed so citizens can follow their government.
 
+- name: Calligraphy Guides
+  homepage: http://crccheck.github.io/calligraphy-guides/
+  repository: https://github.com/crccheck/calligraphy-guides
+  description: >
+    Jekyll site that helps me generate calligraphy guidelines.
+
 - name: Cloudwatch to Graphite
   homepage: https://github.com/crccheck/cloudwatch-to-graphite
   repository: https://github.com/crccheck/cloudwatch-to-graphite
@@ -23,10 +20,42 @@
   travisci: crccheck/cloudwatch-to-graphite
   description: Easy modular way to move data from AWS CloudWatch to Graphite.
 
+- name: crccheck-django-boilerplate
+  homepage: https://github.com/crccheck/crccheck-django-boilerplate
+  repository: https://github.com/crccheck/crccheck-django-boilerplate
+  description: >
+    My opinionated boilerplate/blueprint/skeleton for what a Django app and a
+    simple Django project should look like.
+
+- name: Django Object Actions
+  homepage: https://github.com/texastribune/django-object-actions
+  repository: https://github.com/texastribune/django-object-actions
+  travisci: texastribune/django-object-actions
+  pypi: django-object-actions
+  description: >
+    Lets developers create tool buttons in Django admin the way it should have
+    been.
+
+- name: Django Request Echo
+  homepage: http://django-request-echo.herokuapp.com/
+  repository: https://github.com/crccheck/django-request-echo
+  description: >
+    A quick way to find out what the Django request object looks like
+
 - name: DJs in the News
-  description: Twitter account that gives important DJ updates
   homepage: https://twitter.com/djsinthenews
   repository: https://github.com/crccheck/djsinthenews
+  description: Twitter account that gives important DJ updates
+
+- name: docker-pod
+  repository: https://github.com/crccheck/docker-pod
+  description: >
+    A collection of all my docker images.
+
+- name: dockr
+  homepage: https://github.com/crccheck/dockr
+  repository: https://github.com/crccheck/dockr
+  description: A wrapper around the `docker` cli so I can be lazier.
 
 - name: Elevator Explorer
   homepage: http://elevators.texastribune.org/
@@ -34,6 +63,13 @@
   description: >
     If you're in Texas, and really need to use an elevator,
     this will show you where they are.
+
+- name: F**king Ansible
+  homepage: http://crccheck.github.io/fuckingansible/
+  repository: https://github.com/crccheck/fuckingansible
+  description: >
+    A quick reference for finding the ansible playbook equivalent of a shell
+    command
 
 - name: Gspreadsheet
   homepage: https://github.com/texastribune/gspreadsheet
