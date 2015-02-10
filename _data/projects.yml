@@ -158,6 +158,17 @@
   description: Lets you work with a SVG using Raphael for old IE.
   tags: ["javascript"]
 
+- name: Recipies
+  repository: https://github.com/crccheck/recipes
+  description: "A collection of my recipes"
+  tags: ["food"]
+
+- name: Ripley
+  homepage: https://github.com/texastribune/ripley/blob/master/suchnoms.geojson
+  repository: https://github.com/texastribune/ripley
+  description: "Where to eat around the office"
+  tags: ["geojson", "ruby", "food"]
+
 - name: Sheet Everywhere
   homepage: http://sheet-everywhere.herokuapp.com
   repository: https://github.com/crccheck/sheet-everywhere
