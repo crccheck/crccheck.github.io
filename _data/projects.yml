@@ -1,11 +1,10 @@
 - name: ATX BandC
   homepage: http://atx-bandc-feed.herokuapp.com/
   repository: https://github.com/crccheck/atx-bandc
-  technologies:
-    - Python
   description: >
     Scrapes the Austin Boards & Commissions sites, parses pdfs,
     and presents them as a RSS feed so citizens can follow their government.
+  tags: ["python", "heroku"]
 
 - name: AWS Voyeur
   repository: https://github.com/texastribune/aws-voyeur
@@ -49,6 +48,7 @@
   repository: https://github.com/crccheck/django-request-echo
   description: >
     A quick way to find out what the Django request object looks like
+  tags: ["python", "django", "heroku"]
 
 - name: DJs Everywhere
   homepage: https://chrome.google.com/webstore/detail/djs-everwhere/kohnmfkmnhcganbfphkhmahgheackagg
@@ -78,6 +78,7 @@
   description: >
     If you're in Texas, and really need to use an elevator,
     this will show you where they are.
+  tags: ["python", "django", "data", "texas", "d3"]
 
 - name: F**king Ansible
   homepage: http://crccheck.github.io/fuckingansible/
@@ -85,6 +86,7 @@
   description: >
     A quick reference for finding the ansible playbook equivalent of a shell
     command
+  tags: ["javascript", "grunt"]
 
 - name: Gspreadsheet
   homepage: https://github.com/texastribune/gspreadsheet
@@ -92,7 +94,7 @@
   pypi: gspreadsheet
   description: >
     Python library that lets you use Google Spreadsheets like a csv.
-  tags: ["python"]
+  tags: ["python", "tox"]
 
 - name: IPEDS reporter
   homepage: https://ipeds-reporter.herokuapp.com/
@@ -100,7 +102,7 @@
   description: >
     Two utilities I use to help make it easier to work with the IPEDS Data
     Center.
-  tags: ["python", "django", "data"]
+  tags: ["python", "django", "data", "heroku"]
   footnotes:
     - Django admin as the site
     - Selenium scraper
@@ -119,10 +121,11 @@
 
 - name: MapBike
   homepage: http://www.mapbike.com/
-  repository:
+  repository: https://github.com/crccheck/bikeme/
   description: >
     Consumes bike sharing data from multiple systems to help me find a
     bike along with historical data.
+  tags: ["python", "django", "postgis", "data", "d3"]
 
 - name: Postdoc
   homepage: https://github.com/crccheck/postdoc
@@ -154,13 +157,21 @@
   homepage: http://sheet-everywhere.herokuapp.com
   repository: https://github.com/crccheck/sheet-everywhere
   description: a Google Spreadsheets json api cache/proxy
-  tags: ["python"]
+  tags: ["python", "heroku"]
 
 - name: Text-Mix
-  description: Animated text transitions using the Levenshtein solution.
   homepage: https://github.com/crccheck/text-mix.js
   repository: https://github.com/crccheck/text-mix.js
+  description: Animated text transitions using the Levenshtein solution.
   tags: ["javascript"]
+
+- name: Texas Lobbying
+  homepage: http://lobbying.crccheck.com/
+  repository: https://github.com/texastribune/tx_lobbying
+  travisci: texastribune/tx_lobbying
+  description: >
+    Lobbying data from the Texas Ethics Commission
+  tags: ["django", "python", "nomenklatura", "docker", "data", "texas", "postgis"]
 
 - name: Texas SoS Election Scrapers
   homepage: https://github.com/texastribune/tx_election_scrapers
