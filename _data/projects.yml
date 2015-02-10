@@ -150,7 +150,7 @@
   pypi: project_runpy
   description: >
     Generic helpers I wish existed or am constantly copying into my Python projects
-  tags: ["javascript"]
+  tags: ["python", "django"]
 
 - name: Raphael SVG Import Classic
   homepage: https://github.com/crccheck/raphael-svg-import-classic
