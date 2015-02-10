@@ -92,12 +92,25 @@
   pypi: gspreadsheet
   description: >
     Python library that lets you use Google Spreadsheets like a csv.
+  tags: ["python"]
+
+- name: IPEDS reporter
+  homepage: https://ipeds-reporter.herokuapp.com/
+  repository: https://github.com/texastribune/ipeds_reporter
+  description: >
+    Two utilities I use to help make it easier to work with the IPEDS Data
+    Center.
+  tags: ["python", "django", "data"]
+  footnotes:
+    - Django admin as the site
+    - Selenium scraper
 
 - name: jquery.aura
   homepage: http://texastribune.github.io/jquery.aura.js/demo/
   repository: https://github.com/texastribune/jquery.aura.js
   description: >
     Allows you to trigger code when the mouse gets near an element.
+  tags: ["javascript"]
 
 - name: Lazy Color
   homepage: http://www.lazycolor.com/
