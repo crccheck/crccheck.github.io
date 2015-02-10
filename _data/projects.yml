@@ -1,0 +1,118 @@
+- name: Django Object Actions
+  homepage: https://github.com/texastribune/django-object-actions
+  repository: https://github.com/texastribune/django-object-actions
+  travisci: texastribune/django-object-actions
+  pypi: django-object-actions
+  description: >
+    Lets developers create tool buttons in Django admin the way it should have
+    been.
+
+- name: ATX BandC
+  homepage: http://atx-bandc-feed.herokuapp.com/
+  repository: https://github.com/crccheck/atx-bandc
+  technologies:
+    - Python
+  description: >
+    Scrapes the Austin Boards & Commissions sites, parses pdfs,
+    and presents them as a RSS feed so citizens can follow their government.
+
+- name: Cloudwatch to Graphite
+  homepage: https://github.com/crccheck/cloudwatch-to-graphite
+  repository: https://github.com/crccheck/cloudwatch-to-graphite
+  pypi: cloudwatch-to-graphite
+  travisci: crccheck/cloudwatch-to-graphite
+  description: Easy modular way to move data from AWS CloudWatch to Graphite.
+
+- name: DJs in the News
+  description: Twitter account that gives important DJ updates
+  homepage: https://twitter.com/djsinthenews
+  repository: https://github.com/crccheck/djsinthenews
+
+- name: Elevator Explorer
+  homepage: http://elevators.texastribune.org/
+  repository: https://github.com/texastribune/tx_elevators
+  description: >
+    If you're in Texas, and really need to use an elevator,
+    this will show you where they are.
+
+- name: Gspreadsheet
+  homepage: https://github.com/texastribune/gspreadsheet
+  repository: https://github.com/texastribune/gspreadsheet
+  pypi: gspreadsheet
+  description: >
+    Python library that lets you use Google Spreadsheets like a csv.
+
+- name: jquery.aura
+  homepage: http://texastribune.github.io/jquery.aura.js/demo/
+  repository: https://github.com/texastribune/jquery.aura.js
+  description: >
+    Allows you to trigger code when the mouse gets near an element.
+
+- name: Lazy Color
+  homepage: http://www.lazycolor.com/
+  repository: https://github.com/crccheck/lazy-projects/tree/master/lazyColor
+  description: Tells you if a color is more of a peachpuff or blanchedalmond.
+
+- name: MapBike
+  homepage: http://www.mapbike.com/
+  repository:
+  description: >
+    Consumes bike sharing data from multiple systems to help me find a
+    bike along with historical data.
+
+- name: Postdoc
+  homepage: https://github.com/crccheck/postdoc
+  repository: https://github.com/crccheck/postdoc
+  travisci: crccheck/postdoc
+  pypi: postdoc
+  description: >
+    Wrapper around database CLIs to automate tedious connection
+    arguments in a world where databases are moving off local machines.
+
+- name: Project Runpy
+  homepage: https://github.com/crccheck/project_runpy
+  repository: https://github.com/crccheck/project_runpy
+  travisci: crccheck/project_runpy
+  coveralls: crccheck/project_runpy
+  pypi: project_runpy
+  description: >
+    Generic helpers I wish existed or am constantly copying into my Python projects
+
+- name: Raphael SVG Import Classic
+  homepage: https://github.com/crccheck/raphael-svg-import-classic
+  repository: https://github.com/crccheck/raphael-svg-import-classic
+  description: Lets you work with a SVG using Raphael for old IE.
+
+- name: Sheet Everywhere
+  homepage: http://sheet-everywhere.herokuapp.com
+  repository: https://github.com/crccheck/sheet-everywhere
+  description: a Google Spreadsheets json api cache/proxy
+
+- name: Text-Mix
+  description: Animated text transitions using the Levenshtein solution.
+  homepage: https://github.com/crccheck/text-mix.js
+  repository: https://github.com/crccheck/text-mix.js
+
+- name: Texas SoS Election Scrapers
+  homepage: https://github.com/texastribune/tx_election_scrapers
+  repository: https://github.com/texastribune/tx_election_scrapers
+  travisci: texastribune/tx_election_scrapers
+  pypi: tx_elections_scrapers
+  description: >
+    Python and command line utilities for getting
+    election results from the Texas Secretary of State's website.
+
+- name: Wjordpress
+  homepage: https://github.com/texastribune/wjordpress
+  repository: https://github.com/texastribune/wjordpress
+  travisci: texastribune/wjordpress
+  coveralls: texastribune/wjordpress
+  pypi: wjordpress
+  description: >
+    WordPress to Django integration using the soon-to-be official API.
+
+- name: xscrolly
+  homepage: https://github.com/texastribune/xscrolly
+  repository: https://github.com/texastribune/xscrolly
+  description: >
+    When X scrolls in, do Y
