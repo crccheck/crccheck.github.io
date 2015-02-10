@@ -4,18 +4,20 @@
   description: >
     Scrapes the Austin Boards & Commissions sites, parses pdfs,
     and presents them as a RSS feed so citizens can follow their government.
-  tags: ["python", "heroku"]
+  tags: ["python", "heroku", "opendata"]
 
 - name: AWS Voyeur
   repository: https://github.com/texastribune/aws-voyeur
   description: >
     An opinionated quick n dirty way to list AWS resources from the command-line.
+  tags: ["python", "aws", "ops"]
 
 - name: Calligraphy Guides
   homepage: http://crccheck.github.io/calligraphy-guides/
   repository: https://github.com/crccheck/calligraphy-guides
   description: >
     Jekyll site that helps me generate calligraphy guidelines.
+  tags: ["jekyll"]
 
 - name: Cloudwatch to Graphite
   homepage: https://github.com/crccheck/cloudwatch-to-graphite
@@ -23,7 +25,7 @@
   pypi: cloudwatch-to-graphite
   travisci: crccheck/cloudwatch-to-graphite
   description: Easy modular way to move data from AWS CloudWatch to Graphite.
-  tags: ["python", "aws"]
+  tags: ["python", "aws", "ops"]
 
 - name: crccheck-django-boilerplate
   homepage: https://github.com/crccheck/crccheck-django-boilerplate
@@ -41,7 +43,7 @@
   description: >
     Lets developers create tool buttons in Django admin the way it should have
     been.
-  tags: ["django"]
+  tags: ["django", "tox"]
 
 - name: Django Request Echo
   homepage: http://django-request-echo.herokuapp.com/
@@ -60,17 +62,19 @@
   homepage: https://twitter.com/djsinthenews
   repository: https://github.com/crccheck/djsinthenews
   description: Twitter account that gives important DJ updates
-  tags: ["python"]
+  tags: ["python", "twitter"]
 
 - name: docker-pod
   repository: https://github.com/crccheck/docker-pod
   description: >
     A collection of all my docker images.
+  tags: ["docker"]
 
 - name: dockr
   homepage: https://github.com/crccheck/dockr
   repository: https://github.com/crccheck/dockr
   description: A wrapper around the `docker` cli so I can be lazier.
+  tags: ["docker"]
 
 - name: Elevator Explorer
   homepage: http://elevators.texastribune.org/
@@ -78,7 +82,7 @@
   description: >
     If you're in Texas, and really need to use an elevator,
     this will show you where they are.
-  tags: ["python", "django", "data", "texas", "d3"]
+  tags: ["python", "django", "opendata", "texas", "d3"]
 
 - name: F**king Ansible
   homepage: http://crccheck.github.io/fuckingansible/
@@ -86,7 +90,7 @@
   description: >
     A quick reference for finding the ansible playbook equivalent of a shell
     command
-  tags: ["javascript", "grunt"]
+  tags: ["javascript", "grunt", "ansible", "ops"]
 
 - name: Gspreadsheet
   homepage: https://github.com/texastribune/gspreadsheet
@@ -102,7 +106,7 @@
   description: >
     Two utilities I use to help make it easier to work with the IPEDS Data
     Center.
-  tags: ["python", "django", "data", "heroku"]
+  tags: ["python", "django", "opendata", "heroku"]
   footnotes:
     - Django admin as the site
     - Selenium scraper
@@ -112,12 +116,13 @@
   repository: https://github.com/texastribune/jquery.aura.js
   description: >
     Allows you to trigger code when the mouse gets near an element.
-  tags: ["javascript"]
+  tags: ["javascript", "jquery"]
 
 - name: Lazy Color
   homepage: http://www.lazycolor.com/
   repository: https://github.com/crccheck/lazy-projects/tree/master/lazyColor
   description: Tells you if a color is more of a peachpuff or blanchedalmond.
+  tags: ['grunt', 'javascript']
 
 - name: MapBike
   homepage: http://www.mapbike.com/
@@ -125,7 +130,7 @@
   description: >
     Consumes bike sharing data from multiple systems to help me find a
     bike along with historical data.
-  tags: ["python", "django", "postgis", "data", "d3"]
+  tags: ["python", "django", "postgis", "opendata", "d3"]
 
 - name: Postdoc
   homepage: https://github.com/crccheck/postdoc
@@ -135,7 +140,7 @@
   description: >
     Wrapper around database CLIs to automate tedious connection
     arguments in a world where databases are moving off local machines.
-  tags: ["python"]
+  tags: ["python", "docker"]
 
 - name: Project Runpy
   homepage: https://github.com/crccheck/project_runpy
@@ -163,7 +168,7 @@
   homepage: https://github.com/crccheck/text-mix.js
   repository: https://github.com/crccheck/text-mix.js
   description: Animated text transitions using the Levenshtein solution.
-  tags: ["javascript"]
+  tags: ["javascript", "jquery"]
 
 - name: Texas Lobbying
   homepage: http://lobbying.crccheck.com/
@@ -171,7 +176,7 @@
   travisci: texastribune/tx_lobbying
   description: >
     Lobbying data from the Texas Ethics Commission
-  tags: ["django", "python", "nomenklatura", "docker", "data", "texas", "postgis"]
+  tags: ["django", "python", "nomenklatura", "docker", "opendata", "texas", "postgis"]
 
 - name: Texas SoS Election Scrapers
   homepage: https://github.com/texastribune/tx_election_scrapers
@@ -181,7 +186,7 @@
   description: >
     Python and command line utilities for getting
     election results from the Texas Secretary of State's website.
-  tags: ["python", "data"]
+  tags: ["python", "opendata"]
 
 - name: Wjordpress
   homepage: https://github.com/texastribune/wjordpress
@@ -191,7 +196,7 @@
   pypi: wjordpress
   description: >
     WordPress to Django integration using the soon-to-be official API.
-  tags: ["django", "python"]
+  tags: ["django", "python", "wordpress"]
 
 - name: xscrolly
   homepage: https://github.com/texastribune/xscrolly
