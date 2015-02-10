@@ -1,2 +1,2 @@
-baseurl: "/"
+baseurl: ""
 exclude: ['Makefile', 'Gemfile', 'Gemfile.lock']

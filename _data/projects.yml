@@ -7,6 +7,11 @@
     Scrapes the Austin Boards & Commissions sites, parses pdfs,
     and presents them as a RSS feed so citizens can follow their government.
 
+- name: AWS Voyeur
+  repository: https://github.com/texastribune/aws-voyeur
+  description: >
+    An opinionated quick n dirty way to list AWS resources from the command-line.
+
 - name: Calligraphy Guides
   homepage: http://crccheck.github.io/calligraphy-guides/
   repository: https://github.com/crccheck/calligraphy-guides
@@ -19,6 +24,7 @@
   pypi: cloudwatch-to-graphite
   travisci: crccheck/cloudwatch-to-graphite
   description: Easy modular way to move data from AWS CloudWatch to Graphite.
+  tags: ["python", "aws"]
 
 - name: crccheck-django-boilerplate
   homepage: https://github.com/crccheck/crccheck-django-boilerplate
@@ -26,6 +32,7 @@
   description: >
     My opinionated boilerplate/blueprint/skeleton for what a Django app and a
     simple Django project should look like.
+  tags: ["python", "django"]
 
 - name: Django Object Actions
   homepage: https://github.com/texastribune/django-object-actions
@@ -35,6 +42,7 @@
   description: >
     Lets developers create tool buttons in Django admin the way it should have
     been.
+  tags: ["django"]
 
 - name: Django Request Echo
   homepage: http://django-request-echo.herokuapp.com/
@@ -104,6 +112,7 @@
   description: >
     Wrapper around database CLIs to automate tedious connection
     arguments in a world where databases are moving off local machines.
+  tags: ["python"]
 
 - name: Project Runpy
   homepage: https://github.com/crccheck/project_runpy
@@ -113,21 +122,25 @@
   pypi: project_runpy
   description: >
     Generic helpers I wish existed or am constantly copying into my Python projects
+  tags: ["javascript"]
 
 - name: Raphael SVG Import Classic
   homepage: https://github.com/crccheck/raphael-svg-import-classic
   repository: https://github.com/crccheck/raphael-svg-import-classic
   description: Lets you work with a SVG using Raphael for old IE.
+  tags: ["javascript"]
 
 - name: Sheet Everywhere
   homepage: http://sheet-everywhere.herokuapp.com
   repository: https://github.com/crccheck/sheet-everywhere
   description: a Google Spreadsheets json api cache/proxy
+  tags: ["python"]
 
 - name: Text-Mix
   description: Animated text transitions using the Levenshtein solution.
   homepage: https://github.com/crccheck/text-mix.js
   repository: https://github.com/crccheck/text-mix.js
+  tags: ["javascript"]
 
 - name: Texas SoS Election Scrapers
   homepage: https://github.com/texastribune/tx_election_scrapers
@@ -137,6 +150,7 @@
   description: >
     Python and command line utilities for getting
     election results from the Texas Secretary of State's website.
+  tags: ["python", "data"]
 
 - name: Wjordpress
   homepage: https://github.com/texastribune/wjordpress
@@ -146,9 +160,11 @@
   pypi: wjordpress
   description: >
     WordPress to Django integration using the soon-to-be official API.
+  tags: ["django", "python"]
 
 - name: xscrolly
   homepage: https://github.com/texastribune/xscrolly
   repository: https://github.com/texastribune/xscrolly
   description: >
     When X scrolls in, do Y
+  tags: ["jquery", "javascript"]
