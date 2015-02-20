@@ -156,6 +156,7 @@
   homepage: https://github.com/crccheck/raphael-svg-import-classic
   repository: https://github.com/crccheck/raphael-svg-import-classic
   description: Lets you work with a SVG using Raphael for old IE.
+  npm: raphael-svg-import-classic
   tags: ["javascript"]
 
 - name: Recipies
