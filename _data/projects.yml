@@ -90,6 +90,7 @@
   description: >
     A quick reference for finding the ansible playbook equivalent of a shell
     command
+  travisci: crccheck/fuckingansible
   tags: ["javascript", "grunt", "ansible", "ops"]
 
 - name: Gspreadsheet
