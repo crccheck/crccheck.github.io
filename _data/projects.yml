@@ -45,6 +45,16 @@
     been.
   tags: ["django", "tox"]
 
+- name: Django Object Update
+  homepage: https://github.com/crccheck/dj-obj-update
+  repository: https://github.com/crccheck/dj-obj-update
+  travisci: crccheck/dj-obj-update
+  pypi: dj-obj-update
+  description: >
+    Helper for updating Django objects with logging and only does an UPDATE if
+    it's necessary
+  tags: ["python", "django", "tox"]
+
 - name: Django Request Echo
   homepage: http://django-request-echo.herokuapp.com/
   repository: https://github.com/crccheck/django-request-echo
@@ -181,7 +191,7 @@
   homepage: https://github.com/crccheck/text-mix.js
   repository: https://github.com/crccheck/text-mix.js
   description: Animated text transitions using the Levenshtein solution.
-  tags: ["javascript", "jquery"]
+  tags: ["javascript", "jquery", mocha]
 
 - name: Texas Lobbying
   homepage: http://lobbying.crccheck.com/
