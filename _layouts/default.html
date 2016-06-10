@@ -8,20 +8,28 @@
   </head>
   <body>
     {{ content }}
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script>
-      /*global $*/
-      var $projects = $('li');
-      $('span.tag').click(function () {
-        var tag = this.innerHTML;
-        $projects.filter('.active').removeClass('active');
-        $('span.tag-' + tag).closest('li').addClass('active');
-      });
-      $(document).on('keyup', function (e) {
-        if (e.which === 27) {
-          $projects.filter('.active').removeClass('active');
-        }
-      });
+/*global $*/
+var $projects = $('li')
+
+if (window.location.hash) {
+  $('span.tag-' + window.location.hash.substr(1)).closest('li').addClass('active')
+}
+
+$('span.tag').click(function () {
+  var tag = this.innerHTML
+  $projects.filter('.active').removeClass('active')
+  $('span.tag-' + tag).closest('li').addClass('active')
+  window.location.hash = tag
+})
+
+$(document).on('keyup', function (e) {
+  if (e.which === 27) {
+    $projects.filter('.active').removeClass('active')
+    window.location.hash = ''
+  }
+})
     </script>
   </body>
 </html>
