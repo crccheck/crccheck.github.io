@@ -122,8 +122,8 @@
   homepage: https://ipeds-reporter.herokuapp.com/
   repository: https://github.com/texastribune/ipeds_reporter
   description: >
-    Two utilities I use to help make it easier to work with the IPEDS Data
-    Center.
+    Two utilities I use to help make it easier to work with the
+    Integrated Postsecondary Education Data System (IPEDS) Data Center.
   tags: ["python", "django", "opendata", "heroku"]
   footnotes:
     - Django admin as the site
