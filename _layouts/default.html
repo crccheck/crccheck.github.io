@@ -20,8 +20,12 @@ if (window.location.hash) {
 $('span.tag').click(function () {
   var tag = this.innerHTML
   $projects.filter('.active').removeClass('active')
-  $('span.tag-' + tag).closest('li').addClass('active')
-  window.location.hash = tag
+  if (window.location.hash !== '#' + tag) {
+    $('span.tag-' + tag).closest('li').addClass('active')
+    window.location.hash = tag
+  } else {
+    window.location.hash = ''
+  }
 })
 
 $(document).on('keyup', function (e) {
