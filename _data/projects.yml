@@ -6,7 +6,7 @@
   tags: ["javascript"]
 
 - name: ATX BandC
-  homepage: http://bandc.crccheck.com
+  homepage: https://bandc.crccheck.com
   repository: https://github.com/crccheck/atx-bandc
   description: >
     Scrapes the Austin Boards & Commissions sites, parses pdfs,
@@ -130,7 +130,7 @@
     - Selenium scraper
 
 - name: Jinja2
-  homepage: http://jinja2.crccheck.com/
+  homepage: https://jinja2.crccheck.com/
   repository: https://github.com/crccheck/jinja2-livepreview
   travisci: crccheck/jinja2-livepreview
   description: Experiment with Jinja2 templates from your browser.
@@ -223,7 +223,7 @@
   tags: ["django", "python", "nomenklatura", "docker", "opendata", "texas", "postgis"]
 
 - name: Texas Mixed Beverages Tax
-  homepage: http://barfight.crccheck.com/
+  homepage: https://barfight.crccheck.com/
   repository: https://github.com/texas/tx_mixed_beverages
   travisci: texas/tx_mixed_beverages
   description: >
