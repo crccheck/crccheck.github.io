@@ -1,4 +1,5 @@
 - name: AllBfCards
+  homepage: https://crccheck.github.io/AllBfCards/
   repository: https://github.com/crccheck/AllBfCards
   description: >
     Back in 2010, this was one of the top BattleForge fan sites. I used Google
