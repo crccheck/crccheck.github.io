@@ -202,6 +202,12 @@
   description: a Google Spreadsheets json api cache/proxy
   tags: ["python", "heroku"]
 
+- name: Terraform AWS Icons
+  repository: https://github.com/TabbedOut/terraform-aws-icons
+  pypi: terraform-aws-icons
+  description: Annotate Terraform graphs with AWS icons
+  tags: ["python", "terraform"]
+
 - name: Texplorer
   repository: https://github.com/texas/texplorer
   description: >
